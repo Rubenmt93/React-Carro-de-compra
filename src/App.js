@@ -2,6 +2,7 @@ import { Component } from 'react';
 import Productos from './components/Productos.js'
 import Layout from './components/Layout.js'
 import Title from './components/Title.js';
+import NavBar from './components/NavBar' 
 class App extends Component{
   state={
     productos:[
@@ -13,8 +14,9 @@ class App extends Component{
   render(){
     return(
       <div>
+        <NavBar/>
         <Layout>
-          <Title></Title>
+          <Title/>
           <Productos
             agregarAlCarro={() => console.log('No hace nada')}
             productos={this.state.productos}/>
