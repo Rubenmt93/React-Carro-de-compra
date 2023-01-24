@@ -1,4 +1,5 @@
 import { Component } from "react";
+import Logo from './Logo'
 const style = {
     navBar:{
         display:'flex',
@@ -19,7 +20,7 @@ class NavBar extends Component {
     render() {       
         return (
            <nav style={style.navBar}>
-            <p>Logo</p>
+            <Logo/>
             <p>Carro</p>
            </nav>
         )
