@@ -1,11 +1,12 @@
 import { Component } from "react";
 import Logo from './Logo'
+import Carro from './Carro'
 const style = {
     navBar:{
         display:'flex',
         flexDirection:'row',
         alignItems:'center',
-        heigth:'100px',
+        height:'100px',
         justifyContent:'space-between',
         position: 'relative',
         padding: '0 50px',
@@ -21,7 +22,8 @@ class NavBar extends Component {
         return (
            <nav style={style.navBar}>
             <Logo/>
-            <p>Carro</p>
+            <Carro/>
+            
            </nav>
         )
     }
