@@ -7,8 +7,9 @@ const styles = {
         backgroundColor: '#E9725A',
         borderRadius: '50%',
         color: '#ffff',
-        padding: '5px 5px',
+        padding: '5px 10px',
         fontSize: '0.9rem',
+        minWidth:'20px'
         
    }
 }

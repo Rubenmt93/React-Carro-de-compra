@@ -28,7 +28,7 @@ class App extends Component{
     console.log(this.state.carro);
     return(
       <div>
-        <NavBar/>
+        <NavBar carro={this.state.carro}/>
         <Layout>
           <Title/>
           <Productos
