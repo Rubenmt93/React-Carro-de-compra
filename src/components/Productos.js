@@ -10,7 +10,7 @@ const styles = {
 }
 
 class Productos extends Component {
-
+ 
     render() {
         const { productos, agregarAlCarro} = this.props
         return (
